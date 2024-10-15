@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <!-- Link to External CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="birthday-container">
+        <h1>Happy Birthday, baby!</h1>
+        <p class="message">You're the most amazing person, and I hope your day is filled with love, laughter, and everything you desire. I love you to the moon and back!</p>
+        
+        <!-- Slideshow Section -->
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img src="images/1.jpg" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <img src="images/2.jpg" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <img src="images/3.jpg" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <img src="images/4.jpg" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <img src="images/5.jpg" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <img src="images/6.jpg" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <img src="images/7.jpg" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <img src="images/8.jpg" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <img src="images/9.jpg" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <img src="images/10.jpg" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <img src="images/11.jpg" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <img src="images/12.jpg" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <img src="images/13.jpg" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <img src="images/14.jpg" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <img src="images/15.jpg" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <img src="images/16.jpg" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <img src="images/17.jpg" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <img src="images/18.jpg" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <img src="images/19.jpg" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <img src="images/20.jpg" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <img src="images/21.jpg" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <img src="images/22.jpg" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <img src="images/23.jpg" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <img src="images/24.jpg" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <img src="images/25.jpg" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <img src="images/26.jpg" style="width:100%">
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+
+        <!-- Countdown Section -->
+        <div id="countdown-container">
+            <h2>Countdown to Your Special Day!</h2>
+            <div id="countdown"></div>
+        </div>
+
+        <!-- Surprise Button and Hidden Message -->
+        <button class="button" onclick="showSurprise()">Click for a Surprise</button>
+        <div id="hiddenMessage" style="display: none;">
+            <p>You are the love of my life. Here's to many more birthdays together! 🎉❤️</p>
+        </div>
+    </div>
+
+    <!-- Background Music -->
+    <audio id="birthdaySong" autoplay loop>
+        <source src="your_song_file.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+
+    <!-- Load JS Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
